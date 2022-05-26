@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS -->
+
+    <title>Music Library</title>
+  </head>
+  <body>
+    <div class="explore" id="explore">
+      <div>Explore the devotionals here...</div>
+      <button id="find"><a href="#main" id="expo">Explore</a></button>
+    </div>
+
+    <div class="main" id="main">
+      <!-- <div id="upper">Best of Devotionals...</div> -->
+      <div class="song">
+        <div id="search">
+          <input type="text" placeholder="search-song by title" id="searchin" oninput="appearance()"/>
+        </div>
+        <div class="songlist" id="songlist">
+          <div class="songItem">
+            <span>Abhimanyu the warrior</span>
+            <span class="songlistplay">
+              <span class="time">0:00</span>
+              <i class="fa-solid fa-circle-play"></i>
+            </span>
+          </div>
+          <div class="songItem">
+            <span>MahaBharat Title song</span>
+            <span class="songlistplay">
+              <span class="time">0:00</span>
+              <i class="fa-solid fa-circle-play"></i>
+            </span>
+          </div>
+          <div class="songItem">
+            <span>Ye kesi duvidha hai...</span>
+            <span class="songlistplay">
+              <span class="time">0:00</span>
+              <i class="fa-solid fa-circle-play"></i>
+            </span>
+          </div>
+          <div class="songItem">
+            <span>The son of Arjun</span>
+            <span class="songlistplay">
+              <span class="time">0:00</span>
+              <i class="fa-solid fa-circle-play"></i>
+            </span>
+          </div>
+          <div class="songItem">
+            <span>He katha sangram ki</span>
+            <span class="songlistplay">
+              <span class="time">0:00</span>
+              <i class="fa-solid fa-circle-play"></i>
+            </span>
+          </div>
+          <div class="songItem">
+            <span>Dharma hai ya adharma hai</span>
+            <span class="songlistplay">
+              <span class="time">0:00</span>
+              <i class="fa-solid fa-circle-play"></i>
+            </span>
+          </div>
+          <div class="songItem">
+            <span>Fathe of chakravrty samrat</span>
+            <span class="songlistplay">
+              <span class="time">0:00</span>
+              <i class="fa-solid fa-circle-play"></i>
+            </span>
+          </div>
+          <div class="songItem">
+            <span>MahaBharat...</span>
+            <span class="songlistplay">
+              <span class="time">0:00</span>
+              <i class="fa-solid fa-circle-play"></i>
+            </span>
+          </div>
+          <div class="songItem">
+            <span>Ek ma ki santane</span>
+            <span class="songlistplay">
+              <span class="time">0:00</span>
+              <i class="fa-solid fa-circle-play"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom" id="bottom">
+      <input
+        type="range"
+        id="songprogress"
+        value="0"
+        min="0"
+        max="100"
+        name="range"
+      />
+
+      <div class="icons">
+        <i class="fa-solid fa-2x fa-backward" id="back"></i>
+        <i class="fa-solid fa-2x fa-play" id="play"></i>
+        <i class="fa-solid fa-2x fa-pause" id="pause"></i>
+        <i class="fa-solid fa-2x fa-forward" id="go"></i>
+      </div>
+      <!-- <audio controls>
+        <source src="song-2.mp3" type="audio/mpeg">
+      </audio> -->
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ebabe83c22.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
